@@ -14309,10 +14309,14 @@ ts-message {
   vertical-align: top;
   min-width: 220px;
   color: #2c2d30;
-  background: #fff !important;
+  background: #fff;
   box-shadow: 0 5px 10px rgba(0,0,0,.12);
   border-radius: 6px;
   border: 1px solid #3f3c3c;
+}
+
+.menu .submenu{
+  background: rgb(0, 0, 0) !important;
 }
 
 .menu .menu_content {
