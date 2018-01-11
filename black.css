@@ -10363,7 +10363,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-  background-color: #969595;
+  background-color: #363536;
 }
 .c-message--focus .c-file__actions,
 .c-message--focus .c-file_container__expand {
@@ -10775,7 +10775,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble_outer,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble {
-  color: #941717;
+  color: #353434;
 }
 .c-message__broadcast_preamble {
   display: flex;
