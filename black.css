@@ -10277,7 +10277,7 @@ input[type="text"].p-emoji_picker__input:focus {
   margin-left: 72px;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #15255e;
+  color: #1c3280;
 }
 .c-message--light .c-message__content_header {
   line-height: 1;
@@ -10363,7 +10363,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-  background-color: #747272;
+  background-color: #969595;
 }
 .c-message--focus .c-file__actions,
 .c-message--focus .c-file_container__expand {
@@ -14080,3 +14080,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   color: #717274;
   cursor: pointer;
 }
+
+.channel_header{display:flex;background: #020202;padding:.7rem 0 0;height:100%;box-shadow:inset 1px 0 0 0 #e8e8e8;}
+.channel_title .channel_name{
+  display:flex;min-width:1px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;margin:0 0 -2px;line-height:1.3;font-size:1.125rem;font-weight:900;padding:0 .1rem 0 1.3rem;color: #e8e8ec;cursor:pointer;align-items:baseline;}
