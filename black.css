@@ -14233,3 +14233,14 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   padding-bottom: 6px;
   color: #fff;
 }
+
+#file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container {
+  flex: 1;
+  margin-right: .5rem;
+  min-width: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #9da0a7;
+  display: flex;
+  align-items: center;
+}
