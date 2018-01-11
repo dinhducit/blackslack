@@ -10398,7 +10398,7 @@ input[type="text"].p-emoji_picker__input:focus {
 }
 .c-message--highlight,
 .c-message--highlight_yellow_bg {
-  background: #fff5cc;
+  background: #3a3a3a;
 }
 .c-message--custom_response {
   background: rgba(45, 158, 224, 0.05);
@@ -10664,10 +10664,10 @@ input[type="text"].p-emoji_picker__input:focus {
   position: relative;
 }
 .c-message__editor__input {
-  background: #fff;
+  background: #363636;
   border: 1px solid #a0a0a2;
   border-radius: 0.25rem;
-  color: #2c2d30;
+  color: #fff;
   font-size: 15px;
   height: auto;
   line-height: 1.2;
