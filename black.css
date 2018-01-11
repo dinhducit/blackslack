@@ -10276,12 +10276,13 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message--light .c-message__content {
   margin-left: 72px;
 }
+
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #065f9b;
+  color: #03558b;
 }
 
 .c-message--light .c-message__sender .c-message__sender_link:hover {
-  color: #052392;
+  color: #04228f;
 }
 
 .c-message--light .c-message__content_header {
