@@ -5716,7 +5716,7 @@ a.c-dialog__footer_link:hover {
   padding: 0;
   background: transparent;
   border-radius: 0.25rem;
-  color: #2c2d30;
+  color: #e4e4e4;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -5857,8 +5857,8 @@ a.c-dialog__footer_link:hover {
   }
 }
 .c-menu {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #0a0a0a;
+  border: 1px solid #636262;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   user-select: none;
