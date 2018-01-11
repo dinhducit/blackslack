@@ -10775,7 +10775,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble_outer,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble {
-  color: #717274;
+  color: #5a5a5a;
 }
 .c-message__broadcast_preamble {
   display: flex;
@@ -14081,6 +14081,40 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   cursor: pointer;
 }
 
-.channel_header{display:flex;background: #020202;padding:.7rem 0 0;height:100%;box-shadow:inset 1px 0 0 0 #e8e8e8;}
+.channel_header{display:flex;
+  background: #000000;
+  padding:.7rem 0 0;
+  height:100%;
+  box-shadow:inset 1px 0 0 0 #000000;
+}
 .channel_title .channel_name{
-  display:flex;min-width:1px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;margin:0 0 -2px;line-height:1.3;font-size:1.125rem;font-weight:900;padding:0 .1rem 0 1.3rem;color: #e8e8ec;cursor:pointer;align-items:baseline;}
+  display:flex;
+  min-width:1px;
+  -webkit-user-select:text;
+  -moz-user-select:text;
+  -ms-user-select:text;
+  user-select:text;
+  margin:0 0 -2px;
+  line-height:1.3;
+  font-size:1.125rem;
+  font-weight:900;
+  padding:0 .1rem 0 1.3rem;
+  color: #e8e8ec;
+  cursor:pointer;
+  align-items:baseline;
+}
+
+#channel_topic_text{
+  display: block;
+    line-height: 1.4;
+    min-width: min-content;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    background: #000;
+}
+
+.ql-container.texty_single_line_input .ql-editor {
+  background: #000;
+  color: #fff;
+}
