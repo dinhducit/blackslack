@@ -14158,3 +14158,51 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   -moz-transition: border 150ms ease-out 0;
   transition: border 150ms ease-out 0;
 }
+
+#flex_contents .panel.active {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+  background: #000;
+}
+
+#flex_contents .heading {
+  border-bottom: .0625rem solid #e8e8e8;
+  position: relative;
+  z-index: 50;
+  background: #000;
+  padding: 19px 12px;
+}
+
+#flex_contents .heading_text {
+  flex: 1;
+  color: #dcdcde;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: inherit;
+}
+
+#convo_container ts-conversation ts-message.selected {
+  border-top: 0;
+  padding-top: 7px!important;
+  padding-bottom: 0!important;
+  padding-right: 10px;
+  background: #000;
+  color: #fff;
+}
+
+.light_theme ts-message .message_content .message_sender {
+  font-weight: 900;
+  color: #5f5136!important;
+  line-height: 18px;
+}
+
+#convo_container .convo_flexpane_divider .reply_count {
+  background: #ccc;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding-right: 10px;
+}
