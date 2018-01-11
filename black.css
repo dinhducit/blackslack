@@ -10775,7 +10775,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble_outer,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble {
-  color: #1a1a1a;
+  color: #941717;
 }
 .c-message__broadcast_preamble {
   display: flex;
