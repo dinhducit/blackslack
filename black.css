@@ -14184,6 +14184,29 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   line-height: inherit;
 }
 
+#convo_container ts-conversation ts-message.selected {
+  border-top: 0;
+  padding-top: 7px!important;
+  padding-bottom: 0!important;
+  padding-right: 10px;
+  background: #000;
+  color: #fff;
+}
+
+.light_theme ts-message .message_content .message_sender {
+  font-weight: 900;
+  color: #5f5136!important;
+  line-height: 18px;
+}
+
+#convo_container .convo_flexpane_divider .reply_count {
+  background: #ccc;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding-right: 10px;
+}
+
 .c-message_list__day_divider__line {
   left: 0;
   right: 0;
@@ -14249,54 +14272,22 @@ code {
   margin-bottom: 5px;
 }
 
-#convo_container.should_animate{-webkit-transition:background-color .5s;-moz-transition:background-color .5s;transition:background-color .5s}
-#convo_container a.show_replies{display:none}
-#convo_container ts-message{padding-right:10px}
-.light_theme #convo_container ts-message .message_gutter{width:56px}
-.light_theme #convo_container ts-message .message_content{margin-left:56px}
-.dense_theme #convo_container ts-message .message_gutter{display:none}
-.dense_theme #convo_container ts-message .message_content{margin-left:.5rem}
-#convo_container ts-message.selected.message--focus .action_hover_container,#convo_container ts-message.selected:active .action_hover_container,#convo_container ts-message.selected:hover .action_hover_container{clip:auto}
-#convo_container ts-message.selected .member{margin-right:3px}
-#convo_container #message_edit_container{border-top:1px solid #d4d4d9;border-bottom:1px solid #d4d4d9}
-.light_theme #convo_container #message_edit_container #message_edit_form{margin-left:56px}
-.dense_theme #convo_container #message_edit_container #message_edit_form{margin-left:18px}
-#convo_container ts-conversation{display:block}
-#convo_container ts-conversation ts-message.selected{border-top:0;padding-top:7px!important;padding-bottom:0!important;padding-right:10px}
-#convo_container ts-conversation ts-message.selected .message_content{margin-left:10px;line-height:16px}
-.dense_theme #convo_container ts-conversation ts-message.selected .message_content{margin-left:8px}
-#convo_container ts-conversation ts-message.selected .message_content .member_image{float:left;margin-right:10px;margin-top:2px}
-#convo_container ts-conversation ts-message.selected .message_content .message_sender{line-height:22px}
-#convo_container ts-conversation ts-message.selected .message_content .message_body{clear:left;margin-top:10px;line-height:22px}
-#convo_container ts-conversation ts-message.selected .action_hover_container{top:.5rem}
-#convo_container ts-conversation ts-relatives{display:block;position:relative}
-#convo_container ts-conversation ts-relatives.empty{margin-bottom:10px}
-#convo_container ts-conversation ts-relatives.empty ts-message.should_animate{opacity:0}
-#convo_container ts-conversation ts-relatives:not(.empty){margin-top:4px;margin-bottom:6px}
-.light_theme #convo_container ts-conversation ts-relatives ts-message .message_content_header_left{line-height:16px;min-height:22px}
-#convo_container ts-conversation ts-relatives ts-message .message_content_header_left .time_star_and_extra_metadata{display:inline-block;white-space:nowrap}
-#convo_container ts-conversation ts-relatives ts-message:not(.selected):not(.highlight):not(.delete_mode).new{background-color:#fff5cc}
-#convo_container div.dynamic_content_max_width{max-width:318px}
-#convo_container .convo_flexpane_divider,#file_preview_scroller .convo_flexpane_divider{position:relative;color:#717274;border-top:1px solid #e8e8e8;font-size:12px;margin-left:10px;margin-top:17px;padding-bottom:10px}
-#convo_container .convo_flexpane_divider .reply_count,#file_preview_scroller .convo_flexpane_divider .reply_count{background:#fff;position:absolute;top:-100%;left:0;padding-right:10px}
-#convo_container .thread_channel_link,#file_preview_scroller .thread_channel_link{color:#717274;line-height:18px}
-#convo_container .thread_channel_link .ts_icon_shared_channels,#convo_container .thread_channel_link .ts_icon_shared_channels_pending,#file_preview_scroller .thread_channel_link .ts_icon_shared_channels,#file_preview_scroller .thread_channel_link .ts_icon_shared_channels_pending{position:relative;top:3px;margin-left:2px}
-#convo_container .thread_channel_link .ts_icon_shared_channels:before,#convo_container .thread_channel_link .ts_icon_shared_channels_pending:before,#file_preview_scroller .thread_channel_link .ts_icon_shared_channels:before,#file_preview_scroller .thread_channel_link .ts_icon_shared_channels_pending:before{font-size:18px}
-#message_edit_container{padding-right:1rem}
-#message_edit_container .emo_menu{right:24px;top:4px}
-.inline_message_input_container .emo_menu{right:8px}
-.inline_message_input_container .message_input{-webkit-appearance:none;box-shadow:none;outline:0;resize:none!important;margin:0 0 .5rem;font-size:15px;line-height:1.2rem;height:34px;color:#2c2d30}
-#message_edit_container form,.inline_message_input_container form{padding-right:.5rem;margin:3px 0}
-#message_edit_container form textarea,.inline_message_input_container form textarea{margin:0 0 .5rem;font-size:15px;line-height:1.2rem;height:34px;padding:.5625rem 40px .5625rem .5rem;color:#2c2d30}
-#message_edit_container form #message_editing_info,.inline_message_input_container form #message_editing_info{line-height:28px}
-#message_edit_container form .btn,.inline_message_input_container form .btn{margin-right:.25rem}
-#message_edit_container .message_input.has_scrollbar~.emo_menu,.inline_message_input_container .message_input.has_scrollbar~.emo_menu{right:32px;width:30px}
-.light_theme #message_edit_container form{margin-left:72px}
-.light_theme #message_edit_container .message_gutter{width:72px}
-.dense_theme #message_edit_container{padding-left:0}
-.dense_theme #message_edit_container form{margin-left:88px}
-#message_edit_container .message_input{overflow:auto;min-height:40px;height:auto;background:#fff;-webkit-user-select:auto;-moz-user-select:auto;-ms-user-select:auto;user-select:auto;width:100%;border:1px solid #d4d4d9;border-radius:.25rem;-webkit-appearance:none;box-shadow:none;outline:0;resize:none!important;margin:0 0 .5rem;font-size:15px;line-height:1.2rem;color:#2c2d30}
-#message_edit_container .message_input.focus{border-color:#0576b9;box-shadow:0 0 7px rgba(39,128,248,.15);outline-offset:0;outline:0}
-.inline_message_input_container{margin-top:3px}
-.inline_message_input_container form{width:100%}
-.dense_theme .inline_message_input_container form,.light_theme .inline_message_input_container form{margin-left:0}
+ts-message {
+  display: block;
+  width: 100%;
+  margin: 0 auto -.0625rem;
+  position: relative;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  color: #ebebec;
+  font-size: 15px;
+  line-height: 22px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  word-wrap: break-word;
+  padding: 1px 40px 2px 0;
+}
