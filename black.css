@@ -14329,3 +14329,38 @@ ts-message {
 ts-message.highlight {
   background: #3a3a3a;
 }
+
+#message_edit_container .message_input {
+  overflow: auto;
+  min-height: 40px;
+  height: auto;
+  background: #363636;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  width: 100%;
+  border: 1px solid #d4d4d9;
+  border-radius: .25rem;
+  -webkit-appearance: none;
+  box-shadow: none;
+  outline: 0;
+  resize: none!important;
+  margin: 0 0 .5rem;
+  font-size: 15px;
+  line-height: 1.2rem;
+  color: #e2e2e4;
+}
+
+#client_body:not(.onboarding):before {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 8px;
+  border-bottom: 0px solid #e8e8e8 !important;
+  background: #000 !important;
+  content: '';
+  z-index: 200;
+  box-shadow: inset 1px 0 0 0 #e8e8e8;
+}
