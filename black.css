@@ -10277,8 +10277,13 @@ input[type="text"].p-emoji_picker__input:focus {
   margin-left: 72px;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #132d8b;
+  color: #122f97;
 }
+
+.c-message--light .c-message__sender .c-message__sender_link:hover {
+  color: #8c92a7;
+}
+
 .c-message--light .c-message__content_header {
   line-height: 1;
 }
