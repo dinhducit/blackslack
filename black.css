@@ -10277,11 +10277,11 @@ input[type="text"].p-emoji_picker__input:focus {
   margin-left: 72px;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #122f97;
+  color: #0c2a96c5;
 }
 
 .c-message--light .c-message__sender .c-message__sender_link:hover {
-  color: #8c92a7;
+  color: #0c6aa8;
 }
 
 .c-message--light .c-message__content_header {
@@ -14151,4 +14151,13 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   min-height: 41px;
   background: #000;
   color: #fff;
+}
+
+.c-message_list__unread_divider__separator {
+  border-bottom: none;
+  border-color: #f1f1f1;
+  margin: 0 0 -1px 0;
+  -webkit-transition: border 150ms ease-out 0;
+  -moz-transition: border 150ms ease-out 0;
+  transition: border 150ms ease-out 0;
 }
