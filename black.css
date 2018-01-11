@@ -14394,3 +14394,14 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
   min-width: 1px;
   border-left: 1px solid #3a3a3a;
 }
+
+.menu.p-emoji_picker {
+  position: relative;
+  width: 361px;
+  color: #2c2d30;
+  z-index: 1012;
+  font-size: 0.95rem;
+  background: #f9f9f9 !important;
+  line-height: 1rem;
+  outline: none;
+}
