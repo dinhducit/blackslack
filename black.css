@@ -10277,7 +10277,7 @@ input[type="text"].p-emoji_picker__input:focus {
   margin-left: 72px;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #0d1841;
+  color: #15255e;
 }
 .c-message--light .c-message__content_header {
   line-height: 1;
@@ -10363,7 +10363,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-  background-color: #636262;
+  background-color: #747272;
 }
 .c-message--focus .c-file__actions,
 .c-message--focus .c-file_container__expand {
