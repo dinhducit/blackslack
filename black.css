@@ -10277,11 +10277,11 @@ input[type="text"].p-emoji_picker__input:focus {
   margin-left: 72px;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #0c2a96c5;
+  color: #0c6aa8;
 }
 
 .c-message--light .c-message__sender .c-message__sender_link:hover {
-  color: #0c6aa8;
+  color: #112d92c5;
 }
 
 .c-message--light .c-message__content_header {
