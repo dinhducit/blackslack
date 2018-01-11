@@ -14364,3 +14364,7 @@ ts-message.highlight {
   z-index: 200;
   box-shadow: inset 1px 0 0 0 #e8e8e8;
 }
+
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
+  background: #363636;
+}
