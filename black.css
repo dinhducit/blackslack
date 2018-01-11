@@ -14244,3 +14244,30 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   display: flex;
   align-items: center;
 }
+
+code {
+    padding: 2px 4px;
+    color: #d14;
+    background-color: #a9a8a8;
+    border: 1px solid #575758;
+    white-space: nowrap;
+}
+
+.c-reaction {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  line-height: 0.9;
+  padding: 2px 3px;
+  display: inline-flex;
+  align-items: center;
+  background: #d6d4d4;
+  border: 1px solid #6d6d6d;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
