@@ -10277,7 +10277,7 @@ input[type="text"].p-emoji_picker__input:focus {
   margin-left: 72px;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #1c3280;
+  color: #13297c;
 }
 .c-message--light .c-message__content_header {
   line-height: 1;
@@ -10775,7 +10775,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble_outer,
 .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble {
-  color: #353434;
+  color: #363536;
 }
 .c-message__broadcast_preamble {
   display: flex;
