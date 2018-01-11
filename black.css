@@ -14386,3 +14386,11 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
   background: #000;
   padding: 19px 12px;
 }
+
+.flex_pane_showing #col_flex {
+  display: flex;
+  flex-basis: 500px;
+  flex-shrink: 0;
+  min-width: 1px;
+  border-left: 1px solid #3a3a3a;
+}
