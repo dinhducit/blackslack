@@ -5857,8 +5857,8 @@ a.c-dialog__footer_link:hover {
   }
 }
 .c-menu {
-  background-color: #0a0a0a;
-  border: 1px solid #636262;
+  background-color: #0a0a0a !important;
+  border: 1px solid #636262 !important;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   user-select: none;
