@@ -13316,8 +13316,8 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   height: 32px;
   margin-top: -32px;
   box-sizing: border-box;
-  border-bottom: 1px solid #171616;
-  background: #171616;
+  border-bottom: 1px solid #e8e8e8;
+  background: #fff;
   z-index: 200;
 }
 .p-message_pane--ie.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
