@@ -10281,10 +10281,6 @@ input[type="text"].p-emoji_picker__input:focus {
   color: #03558b !important;
 }
 
-.c-message--light .c-message__sender .c-message__sender_link:hover {
-  color: #04228f;
-}
-
 .c-message--light .c-message__content_header {
   line-height: 1;
 }
