@@ -13316,8 +13316,8 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   height: 32px;
   margin-top: -32px;
   box-sizing: border-box;
-  border-bottom: 1px solid #e8e8e8;
-  background: #fff;
+  border-bottom: 1px solid #171616;
+  background: #171616;
   z-index: 200;
 }
 .p-message_pane--ie.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
@@ -14205,4 +14205,24 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   top: -100%;
   left: 0;
   padding-right: 10px;
+}
+
+.c-message_list__day_divider__line {
+  left: 0;
+  right: 0;
+  border-top: 1px solid #383636;
+  border-bottom: 0;
+  margin: 0 0 -1px 0;
+  top: -1px;
+  position: relative;
+}
+
+.c-message_list__day_divider__label__pill {
+  background: #6f6e6e;
+  display: inline-block;
+  z-index: 201;
+  padding: 0.25rem 0.75rem;
+  border-radius: 24px;
+  position: relative;
+  color: #f9f9f9;
 }
