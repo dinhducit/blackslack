@@ -13282,6 +13282,11 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
     box-shadow: 0 0 4px 0px #2f9fe0, 0 0 0 0 #0576b9;
   }
 }
+
+.p-history_container{
+  background: #000000;
+}
+
 .p-message_pane {
   width: 100%;
   height: 100%;
