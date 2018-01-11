@@ -14118,3 +14118,32 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   background: #000;
   color: #fff;
 }
+
+.ql-container.texty_single_line_input .ql-editor, .ql-container.texty_single_line_input .ql-placeholder {
+  width: 100%;
+  margin: 0;
+  white-space: pre;
+  overflow: hidden;
+  padding: 0;
+  color: #fff;
+}
+
+#footer {
+  order: 1;
+  flex-shrink: 0;
+  background-image: -webkit-linear-gradient(top,rgba(255,255,255,0),#fff 6px);
+  background-image: -moz-linear-gradient(top,rgba(255,255,255,0),#fff 6px);
+  background-image: -o-linear-gradient(top,rgba(255,255,255,0),#fff 6px);
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0),#fff 6px);
+  box-shadow: inset 1px 0 0 0 #000000;
+  background: #000;
+}
+
+#msg_input.ql-container {
+  padding: 0 0 0 2.625rem;
+  height: auto;
+  max-height: none;
+  min-height: 41px;
+  background: #000;
+  color: #fff;
+}
