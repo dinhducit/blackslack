@@ -14227,7 +14227,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   color: #f9f9f9;
 }
 
-#reply_container .inline_message_input_container .ql-editor {
+#reply_container .inline_message_input_container .ql-editor, #reply_container .inline_message_input_container .ql-placeholder {
   min-height: 34px;
   padding-top: 6px;
   padding-bottom: 6px;
