@@ -14495,7 +14495,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
   background: #000000;
   font-size: .9375rem;
   color: #ffffff;
-  border: 1px solid #838386;
+  border: 1px solid #464646;
   border-radius: .25rem;
   -webkit-user-select: auto;
   -moz-user-select: auto;
@@ -15091,4 +15091,21 @@ h1, h2, h3, h4 {
   white-space: nowrap;
   color: #4b78ff;
   font-weight: 900;
+}
+
+.slack_menu_section {
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  background: #000;
+}
+
+.current_status_input_for_team_menu .current_status_presets {
+  margin-top: 16px;
+  border-top: 1px solid #464646;
+}
+
+.current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label {
+  text-transform: none;
+  color: #a9abb1;
 }
