@@ -13562,9 +13562,6 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   padding-top: 24px;
   padding-bottom: 32px;
   color: #bababb;
-  background-image: url('https://slack.global.ssl.fastly.net/436da/img/wave.jpg');
-  background-position: left bottom;
-  background-repeat: repeat-x;
   background-color: #000000;
 }
 .p-message_pane__limited_history_foreword_headline {
@@ -13577,10 +13574,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
 }
 .p-message_pane__limited_history_alert {
   padding: 30px 80px 30px 96px;
-  background-image: url('https://slack.global.ssl.fastly.net/436da/img/wave.jpg'), url('https://slack.global.ssl.fastly.net/436da/img/wave_top.jpg');
-  background-position: left bottom, left top;
-  background-repeat: repeat-x;
-  background-color: #f7f7f7;
+  background-color: #000000;
 }
 .p-file_upload_banner {
   position: relative;
@@ -15754,4 +15748,32 @@ ts-jumper ts-jumper-help {
   background-clip: padding-box!important;
   border-radius: 3px;
   color: #000;
+}
+
+ts-jumper ol li .channel_archived, ts-jumper ol li .channel_name, ts-jumper ol li .channel_not_member, ts-jumper ol li .member_real_name, ts-jumper ol li .searching, ts-jumper ol li .team_username, ts-jumper ol li .view_name {
+  color: #868da5;
+}
+
+ts-jumper ol li .channel_archived, ts-jumper ol li .channel_not_member, ts-jumper ol li .current_status, ts-jumper ol li .member_deleted, ts-jumper ol li .member_real_name+.member_preferred_name, ts-jumper ol li .member_team_name, ts-jumper ol li .p-jumper__workspace_name, ts-jumper ol li .team_username {
+  color: #776669;
+}
+
+#footer_archives_preview {
+  padding: 1.5rem 0;
+  background-color: #000000;
+  border-top: 1px solid #464646;
+}
+
+.c-archive_footer__title {
+  margin-bottom: .5rem;
+  font-size: 18px;
+  text-align: center;
+  color: #7692e8;
+}
+
+.c-archive_footer__metadata {
+  margin-bottom: 1.5rem;
+  font-size: 15px;
+  text-align: center;
+  color: #919192;
 }
