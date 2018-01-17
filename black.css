@@ -15031,3 +15031,64 @@ h1, h2, h3, h4 {
   color: #355698;
   white-space: nowrap;
 }
+
+.channel_prefs__muting_checkbox_label:not(.subtle_silver) {
+  color: #a6a8b1!important;
+}
+
+.channel_prefs_notifications_table {
+  color: #5d72b1;
+  table-layout: fixed;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.supports_custom_scrollbar #menu.notifications_menu .menu_content {
+  background: #000;
+}
+
+#col_messages {
+  margin-left: 0;
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 1px;
+  box-shadow: inset 1px 0 0 0 #464646;
+  background: #000;
+}
+
+.bottom_mark_all_read {
+  display: none;
+  border-top: 1px solid #464646;
+}
+
+.unread_group_header {
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border-top: 1px solid #464646;
+  border-left: 1px solid #464646;
+  background: #000000;
+  color: #19459c;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.25rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 99;
+}
+
+.unread_group_header_name a {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #4b78ff;
+  font-weight: 900;
+}
