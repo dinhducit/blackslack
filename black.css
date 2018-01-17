@@ -14697,3 +14697,16 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
 #member_mentions h3 a {
   color: #8092c7;
 }
+
+#client-ui #team_list_container .searchable_member_list_input {
+  border: none;
+  padding: .7rem .75rem .7rem 2.4rem;
+  background: #000;
+  color: #fff;
+}
+
+.searchable_member_list_filter {
+  padding: 1rem;
+  position: relative;
+  border-bottom: 1px solid #464646;
+}
