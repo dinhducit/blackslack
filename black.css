@@ -10278,7 +10278,7 @@ input[type="text"].p-emoji_picker__input:focus {
 }
 
 .c-message--light .c-message__sender .c-message__sender_link {
-  color: #0c54b1 !important;
+  color: #4b6f7d !important;
 }
 
 .c-message--light .c-message__content_header {
@@ -14195,7 +14195,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
 
 .light_theme ts-message .message_content .message_sender {
   font-weight: 900;
-  color: #0c54b1 !important;
+  color: #4b6f7d !important;
   line-height: 18px;
 }
 
@@ -15482,7 +15482,7 @@ span.match {
 }
 
 a, a:link, a:visited {
-  color: #355486;
+  color: #597096;
 }
 
 .search_message_result .search_message_result_meta a {
