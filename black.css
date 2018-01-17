@@ -13557,15 +13557,17 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   font-size: 0.8rem;
   text-align: center;
 }
+
 .p-message_pane__limited_history_foreword {
   text-align: center;
   padding-top: 24px;
   padding-bottom: 32px;
   color: #bababb;
+  background-image: url() !important;
   background-color: #000000;
-  background-image: url('') !important;
   border-bottom: 1px solid #464646;
 }
+
 .p-message_pane__limited_history_foreword_headline {
   font-size: 18px;
   font-weight: 900;
@@ -13577,7 +13579,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
 .p-message_pane__limited_history_alert {
   padding: 30px 80px 30px 96px;
   background-color: #000000;
-  background-image: url('') !important;
+  background-image: url() !important;
   border-bottom: 1px solid #464646;
 }
 .p-file_upload_banner {
