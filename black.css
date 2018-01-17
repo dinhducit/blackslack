@@ -15783,3 +15783,9 @@ ts-jumper ol li .channel_archived, ts-jumper ol li .channel_not_member, ts-jumpe
   text-align: center;
   color: #919192;
 }
+
+.supports_custom_scrollbar:not(.slim_scrollbar) .p-emoji_picker__list_scroller::-webkit-scrollbar-track, .supports_custom_scrollbar:not(.slim_scrollbar) .p-emoji_picker__list_scroller::-webkit-scrollbar-thumb {
+  background-clip: padding-box !important;
+  border-radius: 3px;
+  color: #464646;
+}
