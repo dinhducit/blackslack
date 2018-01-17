@@ -14622,3 +14622,59 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
   font-weight: 700;
   color: #475e8c;
 }
+
+#flex_contents .subheading:not(:empty) {
+  position: relative;
+  font-size: .8rem;
+  background: #f9f9f9;
+  color: #c2c5cc;
+  border-top: 1px solid #424242;
+  border-bottom: none;
+  z-index: 9;
+  min-height: 41px;
+  min-height: 0;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+#flex_contents .subheading:not(:empty)#mentions_options {
+  background: #000;
+  border-top: 0;
+  border-bottom: 1px solid #424242;
+}
+
+.mention_day_container_div .day_divider:before {
+  position: absolute;
+  margin-bottom: .75rem;
+  border-bottom: 1px solid #424242;
+  background: #000;
+  height: .75rem;
+  width: 100%;
+  left: 0;
+  content: '';
+}
+
+.day_divider {
+  padding: 0;
+  font-size: .9rem;
+  line-height: 1rem;
+  color: #1e2027;
+  font-weight: 700;
+  text-align: center;
+  cursor: default;
+  clear: both;
+  position: relative;
+}
+
+.day_divider .day_divider_label {
+  background: #424242;
+  padding: .25rem .75rem;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  opacity: 1;
+  border-radius: 1rem;
+  -webkit-transition: opacity 250ms ease-out 0s;
+  -moz-transition: opacity 250ms ease-out 0s;
+  transition: opacity 250ms ease-out 0s;
+}
