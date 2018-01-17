@@ -10750,7 +10750,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message__reply_bar_description {
   position: relative;
   margin-left: 8px;
-  color: #a0a0a2;
+  color: #999898;
   flex: 1;
   overflow: hidden;
   white-space: nowrap;
