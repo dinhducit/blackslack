@@ -10722,12 +10722,12 @@ input[type="text"].p-emoji_picker__input:focus {
 }
 .c-message__reply_bar:hover,
 .c-message__reply_bar--focus {
-  background-color: #6e6d6d;
+  background-color: #999898;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .c-message__reply_bar:hover .c-message__reply_bar_arrow,
 .c-message__reply_bar--focus .c-message__reply_bar_arrow {
-  color: #a0a0a2;
+  color: #999898;
 }
 .c-message__reply_bar:hover .c-message__reply_bar_last_reply,
 .c-message__reply_bar--focus .c-message__reply_bar_last_reply {
@@ -10736,7 +10736,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread,
 .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
   opacity: 1;
-  background-color: #6e6d6d;
+  background-color: #999898;
 }
 .c-message__reply_bar .c-avatar {
   margin-right: 4px;
