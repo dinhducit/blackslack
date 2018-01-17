@@ -10722,7 +10722,7 @@ input[type="text"].p-emoji_picker__input:focus {
 }
 .c-message__reply_bar:hover,
 .c-message__reply_bar--focus {
-  background-color: #fff;
+  background-color: #464646;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .c-message__reply_bar:hover .c-message__reply_bar_arrow,
@@ -14200,7 +14200,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
 }
 
 #convo_container .convo_flexpane_divider .reply_count {
-  background: #ccc;
+  background: rgb(0, 0, 0);
   position: absolute;
   top: -100%;
   left: 0;
@@ -14582,4 +14582,43 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
 .channel_page_member_row:hover {
   border: 0px solid #717274;
   background: #363536;
+}
+
+#flex_contents .toolbar_container {
+  padding: .5rem .75rem 0 0;
+  background: #000;
+}
+
+#flex_contents .flexpane_tab_bar li .tab {
+  padding: 0 .75rem;
+  color: #bbbbbb;
+  font-weight: 700;
+  text-decoration: none!important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 150px;
+  display: inline-block;
+}
+
+#flex_contents .flexpane_tab_bar li.active .tab {
+  color: #3961da;
+}
+
+#client-ui .file_list_item.file_list_item--redesign {
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding: 12px 12px 8px;
+  border: 1px solid #464646;
+}
+
+#client-ui .file_list_item.file_list_item--redesign .email_preview_text, #client-ui .file_list_item.file_list_item--redesign .file_search_item__author_and_time, #client-ui .file_list_item.file_list_item--redesign .title {
+  margin-bottom: 2px;
+  color: #9da1ab;
+}
+
+#client-ui .file_list_item.file_list_item--redesign .message_sender {
+  font-weight: 700;
+  color: #475e8c;
 }
