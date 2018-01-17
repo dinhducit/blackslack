@@ -13563,6 +13563,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
   padding-bottom: 32px;
   color: #bababb;
   background-color: #000000;
+  background-image: url('') !important;
   border-bottom: 1px solid #464646;
 }
 .p-message_pane__limited_history_foreword_headline {
@@ -13576,6 +13577,7 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
 .p-message_pane__limited_history_alert {
   padding: 30px 80px 30px 96px;
   background-color: #000000;
+  background-image: url('') !important;
   border-bottom: 1px solid #464646;
 }
 .p-file_upload_banner {
