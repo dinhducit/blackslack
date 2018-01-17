@@ -15109,3 +15109,56 @@ h1, h2, h3, h4 {
   text-transform: none;
   color: #a9abb1;
 }
+
+#threads_msgs_scroller_div {
+  font-size: 15px;
+  background: #000000;
+  height: calc(100% - 16px);
+  margin-top: 8px;
+  overflow-y: scroll;
+}
+
+ts-thread {
+  font-size: 15px;
+  display: block;
+  position: relative;
+  margin-top: 1rem;
+  background: #000000;
+}
+
+ts-thread .thread_header .thread_channel_name a {
+  font-weight: 700;
+  color: #4c68bd;
+}
+
+#convo_tab .thread_participants, ts-thread .thread_participants {
+  font-size: 12px;
+  color: #a5a6a9;
+  margin-top: 5px;
+}
+
+ts-thread .thread_messages {
+  background: #080808;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #464646;
+  border-bottom: none;
+}
+
+.reply_input_container .ql-container {
+  background-color: #1d1d1d;
+  border: 1px solid #464646;
+  border-radius: 0 0 10px 10px;
+}
+
+.inline_message_input_container .message_input {
+  -webkit-appearance: none;
+  box-shadow: none;
+  outline: 0;
+  resize: none!important;
+  margin: 0 0 .5rem;
+  font-size: 15px;
+  line-height: 1.2rem;
+  height: 34px;
+  color: #ffffff;
+}
