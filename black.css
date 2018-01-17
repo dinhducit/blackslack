@@ -15162,3 +15162,25 @@ ts-thread .thread_messages {
   height: 34px;
   color: #ffffff;
 }
+
+#threads_msgs_scroller_div .threads_caught_up_divider .divider_line {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  border-top: 1px solid #464646;
+}
+
+#threads_msgs_scroller_div .threads_caught_up_divider .divider_label {
+  background: #464646;
+  color: #e3e4e6;
+  padding: .25rem .75rem;
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 1rem;
+  font-weight: 700;
+}
