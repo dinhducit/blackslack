@@ -15203,7 +15203,7 @@ ts-thread .thread_messages {
   padding: 4px 3px 4px 4px;
 }
 
-.lazy_filter_select .lfs_list .lfs_item:active{
+.lazy_filter_select .lfs_list .lfs_item.active{
   background-color: #464646;
   border-color: #000000;
 }
