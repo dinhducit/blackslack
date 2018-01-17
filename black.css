@@ -11768,7 +11768,7 @@ a.c-message__call_name--linked {
   margin: 0 0 8px -20px;
   padding-left: 20px;
   max-width: 600px;
-  color: #525356;
+  color: #838292;
 }
 .c-message_attachment__border {
   flex-shrink: 0;
@@ -14491,13 +14491,8 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
   background: #020202;
 }
 
-.ql-container.texty_single_line_input .ql-editor {
-  background: #565656;
-  color: #fff;
-}
-
 .ql-container.texty_single_line_input {
-  background: #565656;
+  background: #000000;
   font-size: .9375rem;
   color: #ffffff;
   border: 1px solid #838386;
@@ -14578,4 +14573,12 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
 .modal p {
   line-height: 1.32rem;
   color: #b5aaaa;
+}
+
+.c-message--ephemeral {
+  background: #020202;
+}
+
+.channel_page_member_row:hover {
+  background: #020202;
 }
