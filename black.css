@@ -14716,4 +14716,6 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
   border-bottom: 1px solid #464646;
   border-top: none;
 }
-#client-ui .searchable_member_list .team_list_item:hover{background:#464646}
+#client-ui .searchable_member_list .team_list_item:hover{
+  background:#464646
+}
