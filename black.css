@@ -14580,6 +14580,5 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
 }
 
 .channel_page_member_row:hover {
-  border: 1px solid #717274;
   background: #363536;
 }
