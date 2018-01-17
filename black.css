@@ -14629,6 +14629,10 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
   color: #9da1ab;
 }
 
+.active .tab_container .file_list_item {
+  background-color: #464646;
+}
+
 #client-ui .file_list_item.file_list_item--redesign .message_sender {
   font-weight: 700;
   color: #475e8c;
