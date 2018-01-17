@@ -14613,6 +14613,17 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
   border: 1px solid #464646;
 }
 
+.tab_container .file_comment_item .actions .btn_icon, .tab_container .file_comment_item .actions .star_jump, .tab_container .file_list_item .actions .btn_icon, .tab_container .file_list_item .actions .star_jump, .tab_container .star_item .message .actions .btn_icon, .tab_container .star_item .message .actions .star_jump, .tab_container .star_item ts-message .actions .btn_icon, .tab_container .star_item ts-message .actions .star_jump {
+  float: left;
+  margin-left: 5px;
+  background-color: #b7b6b6;
+}
+
+.tab_container .file_list_item:focus, .tab_container .file_list_item:hover {
+  background-color: #464646;
+  border-color: rgba(0,0,0,.1);
+}
+
 #client-ui .file_list_item.file_list_item--redesign .email_preview_text, #client-ui .file_list_item.file_list_item--redesign .file_search_item__author_and_time, #client-ui .file_list_item.file_list_item--redesign .title {
   margin-bottom: 2px;
   color: #9da1ab;
@@ -14677,4 +14688,8 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
   -webkit-transition: opacity 250ms ease-out 0s;
   -moz-transition: opacity 250ms ease-out 0s;
   transition: opacity 250ms ease-out 0s;
+}
+
+#member_mentions h3 a {
+  color: #8092c7;
 }
