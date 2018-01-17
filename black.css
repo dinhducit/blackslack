@@ -14529,7 +14529,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
   left: 50%;
   z-index: 1050;
   width: 560px;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
   background-color: #000;
   border: 1px solid #999;
   border: 1px solid #424242;
