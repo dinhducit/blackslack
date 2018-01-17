@@ -14751,6 +14751,10 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
   border-top: 1px solid #464646;
 }
 
-#whats_new_content span{
+.bottom_border {
+  border-bottom: 1px solid #464646;
+}
+
+.normal_margin h3{
   color: #341cb8 !important;
 }
