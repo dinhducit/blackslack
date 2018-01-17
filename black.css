@@ -14751,6 +14751,6 @@ ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.fo
   border-top: 1px solid #464646;
 }
 
-.whats_new_content {
+#whats_new_content span{
   color: #341cb8 !important;
 }
