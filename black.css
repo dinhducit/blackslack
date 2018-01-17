@@ -14405,3 +14405,55 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
   line-height: 1rem;
   outline: none;
 }
+
+.menu .section_header .header_label {
+  background-color: #000;
+  color: #c77288;
+  padding-right: .8rem;
+}
+
+.menu .section_header hr {
+  position: absolute;
+  left: 0.1rem;
+  right: 0;
+  margin-top: .6rem;
+  margin-bottom: 0;
+  border: 0;
+  border-top: 1px solid #2b2a2a !important;
+  border-bottom: 1px solid #4e4a4a !important;
+}
+
+#details_tab .channel_page_section {
+  background: #000;
+  position: relative;
+  border-top: 1px solid #424242;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 3px;
+  min-height: 61px;
+  max-height: 61px;
+  overflow-y: hidden;
+  transition: max-height .3s ease;
+}
+
+#details_tab .channel_page_section .section_title {
+  color: #ffffff;
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+#details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
+  color: #586384;
+}
+
+.c-member__display-name, .c-team__display-name, .c-usergroup__handle {
+  color: #7e9df9;
+  font-weight: 700;
+}
+
+.c-channel_insights__channel .channel_link {
+  color: #7e859c;
+  font-weight: 900;
+}
