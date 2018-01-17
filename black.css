@@ -10722,7 +10722,7 @@ input[type="text"].p-emoji_picker__input:focus {
 }
 .c-message__reply_bar:hover,
 .c-message__reply_bar--focus {
-  background-color: #464646;
+  background-color: #6e6d6d;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .c-message__reply_bar:hover .c-message__reply_bar_arrow,
@@ -10736,7 +10736,7 @@ input[type="text"].p-emoji_picker__input:focus {
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread,
 .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
   opacity: 1;
-  background-color: #fff;
+  background-color: #6e6d6d;
 }
 .c-message__reply_bar .c-avatar {
   margin-right: 4px;
