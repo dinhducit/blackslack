@@ -15982,3 +15982,16 @@ background: #464646;
   line-height: 1.32rem;
   color: #ffffff;
 }
+
+ts-space header .owner_detail .offscreen.js_editable_text+.inline-edit {
+  display: inline-block;
+  background: #fff;
+}
+
+ts-space header .owner_detail small {
+  display: block;
+  font-size: .9rem;
+  line-height: 17px;
+  font-weight: 700;
+  color: #2d65d4;
+}
