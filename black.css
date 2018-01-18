@@ -14116,6 +14116,21 @@ input[type="checkbox"].c-home_screen__reminder__checkbox {
     background: #000;
 }
 
+#edit_topic_inner:not(.unable_to_post):before {
+  background: #000000;
+  border: 1px solid #464646;
+  border-radius: .3077em;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -.23em -.3em;
+  padding: .23em .3em;
+  position: absolute;
+}
+
 .ql-container.texty_single_line_input .ql-editor {
   background: #000;
   color: #fff;
@@ -15788,4 +15803,93 @@ ts-jumper ol li .channel_archived, ts-jumper ol li .channel_not_member, ts-jumpe
   background-clip: padding-box !important;
   border-radius: 3px;
   color: #464646;
+}
+
+.pickmeup .pmu-instance {
+  display: inline-block;
+  height: 242px;
+  text-align: center;
+  width: 252px;
+  background: #000;
+}
+
+.pickmeup .pmu-instance .pmu-day-of-week *, .pickmeup .pmu-instance .pmu-days * {
+  display: inline-block;
+  line-height: 1.9rem;
+  width: 36px;
+  border: 1px solid #464646;
+  border-bottom: none;
+  border-left: none;
+  font-weight: 900;
+}
+
+.pickmeup .pmu-instance .pmu-disabled, .pickmeup .pmu-instance .pmu-disabled:hover {
+  color: #4e4e4e;
+  background: #000000;
+  cursor: not-allowed;
+}
+
+.pickmeup .pmu-instance .pmu-button {
+  color: #cece83;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+}
+
+.pickmeup .pmu-instance .pmu-day-of-week {
+  color: #8686bf;
+  cursor: default;
+  font-weight: 700;
+  font-size: .7rem;
+  padding: 0;
+}
+
+.pickmeup .pmu-instance .pmu-months *, .pickmeup .pmu-instance .pmu-years * {
+  display: inline-block;
+  line-height: 69px;
+  width: 63px;
+  border: 1px solid #464646;
+  border-bottom: none;
+  border-left: none;
+  font-weight: 900;
+}
+
+.c-enhanced_text_input {
+  background-color: #000;
+}
+
+.p-apps_browser__app_limit_meter b {
+  color: #7e88a5;
+}
+
+.p-apps_browser__category_header {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  background: #000;
+  color: #9e9ea0;
+  padding-bottom: 0.5rem;
+}
+
+.p-apps_browser__app {
+  display: flex;
+  align-items: center;
+  padding: 11px 12px;
+  border: 1px solid transparent;
+  border-top-color: #464646;
+  cursor: pointer;
+}
+
+.p-apps_browser__app_info {
+  flex: 1 1 0;
+  font-size: 15px;
+  overflow: hidden;
+  line-height: 1.3rem;
+  color: #b1b3b9;
+  margin-right: 12px;
+}
+
+.p-apps_browser__app--selected{
+border-radius: 6px;
+border: 1px solid #383838;
+background: #464646;
 }
