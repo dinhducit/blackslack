@@ -15994,3 +15994,11 @@ ts-space header .owner_detail small {
   font-weight: 700;
   color: #2d65d4;
 }
+
+ts-thread ts-message.new_reply {
+  background: #464646;
+}
+
+ts-thread ts-message.new_reply:hover {
+    background: #3f4142;
+}
