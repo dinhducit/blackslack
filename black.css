@@ -16033,3 +16033,7 @@ ts-thread ts-message.new_reply:hover {
 .app_preview_link_slug.mention, .internal_member_link.mention, .internal_user_group_link.mention, ts-mention.mention {
   background: #403f3b;
 }
+
+.c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover {
+  background: #21201f;
+}
