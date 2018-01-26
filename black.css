@@ -16002,3 +16002,22 @@ ts-thread ts-message.new_reply {
 ts-thread ts-message.new_reply:hover {
     background: #3f4142;
 }
+
+#primary_file_button {
+  position: absolute;
+  bottom: 1.375rem;
+  top: 0;
+  left: 0;
+  width: 44px;
+  padding: 0;
+  border: 2px solid #a0a0a2;
+  background: #464646;
+  color: #ddddde;
+  line-height: 42px;
+  text-shadow: none;
+  text-align: center;
+  -webkit-transition: background 50ms,color 50ms;
+  -moz-transition: background 50ms,color 50ms;
+  transition: background 50ms,color 50ms;
+  border-radius: 6px 0 0 6px;
+}
