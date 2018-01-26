@@ -16025,3 +16025,11 @@ ts-thread ts-message.new_reply:hover {
 .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
   box-shadow: 0 32px #000;
 }
+
+.comment .mention, .ql-editor .mention, ts-message .mention {
+  background: #000000;
+}
+
+.app_preview_link_slug.mention, .internal_member_link.mention, .internal_user_group_link.mention, ts-mention.mention {
+  background: #403f3b;
+}
